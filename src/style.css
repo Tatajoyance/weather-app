@@ -1,0 +1,122 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(10, 10, 10) !important;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #005670;
+}
+.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}
+.flex-box {
+  flex-wrap: nowrap;
+  margin: auto;
+  padding: 10px 10px;
+}
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:row;
+}
+
+.day,.city {
+  color: white;
+  display: block;
+  margin: 0px;
+}
+.city {
+  font-size: 50px;
+}
+.day {
+  font-size: 30px;
+}
+.flex2{
+  display: block;
+  margin: 0px;
+  align-items: center;
+  color: black;
+}
+.icon{
+  position: relative;
+  display: inline-block;
+  width: 8em;
+  height: 0em;
+  font-size: 16px;/* control icon size here */
+}
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.375em #fff;
+  animation: spin 12s infinite linear;
+}
+.rays {
+  position: absolute;
+  top: -2.3em;
+  left: 50%;
+  display: block;
+  width: 0.375em;
+  height: 1.125em;
+  margin-left: -0.1875em;
+  background: #fff;
+  border-radius: 0.25em;
+  box-shadow: 0 5.375em #fff;
+}
+.rays:before,
+.rays:after {
+  content: "";
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  display: block;
+  width: 0.375em;
+  height: 1.125em;
+  transform: rotate(60deg);
+  transform-origin: 50% 3.25em;
+  background: #fff;
+  border-radius: 0.25em;
+  box-shadow: 0 5.375em #fff;
+}
+.rays:before {
+  transform: rotate(120deg);
+}
+.col{
+  text-align: center;
+}
+p {
+  color: white;
+}
+/*animations taken from https://codepen.io/joshbader/pen/EjXgqr*/
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+  
