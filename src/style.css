@@ -3,7 +3,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: rgb(255, 254, 254) !important;
+  background: white !important;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
-  background-color: #005670;
+  background-color: white;
 }
 .btn-search {
 	  background: #424242;
@@ -43,7 +43,7 @@ body {
 }
 
 .day,.city {
-  color: white;
+  color:black;
   display: block;
   margin: 0px;
 }
@@ -73,9 +73,9 @@ body {
   width: 30px;
   height: 30px;
   margin: 0px;
-  background: black;
+  background: white;
   border-radius: 50%;
-  box-shadow: 0 0 0 0.375em #fff;
+  box-shadow: 0 0 0 0.375em black;
   animation: spin 12s infinite linear;
 }
 .rays {
@@ -86,9 +86,9 @@ body {
   width: 0.375em;
   height: 1.125em;
   margin-left: -0.1875em;
-  background: #fff;
+  background: black;
   border-radius: 0.25em;
-  box-shadow: 0 5.375em #fff;
+  box-shadow: 0 5.375em black;
 }
 .rays:before,
 .rays:after {
@@ -101,9 +101,9 @@ body {
   height: 1.125em;
   transform: rotate(60deg);
   transform-origin: 50% 3.25em;
-  background: #fff;
+  background: black;
   border-radius: 0.25em;
-  box-shadow: 0 5.375em #fff;
+  box-shadow: 0 5.375em black;
 }
 .rays:before {
   transform: rotate(120deg);
@@ -112,7 +112,7 @@ body {
   text-align: center;
 }
 p {
-  color: white;
+  color: black;
 }
 /*animations taken from https://codepen.io/joshbader/pen/EjXgqr*/
 @keyframes spin {
