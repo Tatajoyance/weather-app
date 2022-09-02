@@ -3,7 +3,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: rgb(10, 10, 10) !important;
+  background: rgb(255, 254, 254) !important;
 }
 
 body {
@@ -119,4 +119,3 @@ p {
   100% {
     transform: rotate(360deg);
   }
-  
